@@ -32,10 +32,10 @@ Sklearn.py - Compare various classifiers based on the accuracy and select the be
 Just execute the code "Models.py" <br />
 
 ### Parameters to play with models
-data_type      > [default = 0 > To take into effect word's position(Explaination in sec 1.1 below), any other value otherwise] <br />
-training_part   [default = 0.8 > How much part of data will be used for training] <br />
-use_saved_cl    [default = 0 	> Will train model on training data, otherwise use saved trained model] <br />
-cutoff_prob     [default = 0.9 > If all predicted class probabilities falls below this number, it will assign class "unknown"] <br />
-prediction_only [default = 0 > Nonzero values if only want to predict class (on new dataset for which we don't know actual class)] <br />
-prob_chk        [default = 0 > Nonzero value will save predicted class with the probability on which they have been assigned] <br />
+**data_type**        [default = 0 > To take into effect word's position(Explaination in sec 1.1 below), any other value otherwise] <br />
+**training_part**   [default = 0.8 > How much part of data will be used for training] <br />
+**use_saved_cl**    [default = 0 	> Will train model on training data, otherwise use saved trained model] <br />
+**cutoff_prob**     [default = 0.9 > If all predicted class probabilities falls below this number, it will assign class "unknown"] <br />
+**prediction_only** [default = 0 > Nonzero values if only want to predict class (on new dataset for which we don't know actual class)] <br />
+**prob_chk**        [default = 0 > Nonzero value will save predicted class with the probability on which they have been assigned] <br />
 
