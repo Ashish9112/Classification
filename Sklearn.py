@@ -69,6 +69,7 @@ if __name__ == "__main__":
 	random.shuffle(data)  ## Shuffle the data for before dividing in training and testing
 	cut_off = int(training_part * len(data)) ## Training data observations
 	training_set = data[:cut_off]
-	testing_set = data[cut_off:]random.shuffle(data)
+	testing_set = data[cut_off:]
+	random.shuffle(data)
 
 	Compare_Classifiers(training, testing)
